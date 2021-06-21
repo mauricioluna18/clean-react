@@ -8,3 +8,6 @@ npm i -D eslint eslint-config-standard-with-typescript@11 eslint-plugin-import e
 
 npm i -D lint-staged husky
   configurar archivos: .lintstagedrc.json y .huskyrc.json
+
+npm i -D jest @types/jest ts-jest
+  configuar jest: jest.config.js
