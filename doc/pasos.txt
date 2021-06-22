@@ -11,3 +11,5 @@ npm i -D lint-staged husky
 
 npm i -D jest @types/jest ts-jest
   configuar jest: jest.config.js
+
+npm i -D faker @types/faker
