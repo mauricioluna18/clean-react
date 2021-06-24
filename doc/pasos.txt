@@ -19,8 +19,12 @@ npm i -D @types/axios
 
 npm i react react-dom
 npm i -D @types/react @types/react-dom
-
+---=============
 npm i -D webpack webpack-cli webpack-dev-server
 configurar webpack: webpack.config.js
 npm i -D clean-webpack-plugin
 npm i -D eslint-plugin-react
+
+npm i -D node-sass sass-loader css-loader style-loader ts-loader
+npm i -D identity-obj-proxy
+
