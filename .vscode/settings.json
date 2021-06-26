@@ -1,21 +1,23 @@
 {
-   "eslint.format.enable": true,
-  // "eslint.validate": ["typescript", "typescriptreact"],
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll.eslint": true
-  // },
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.tabSize": 2,
-  "explorer.compactFolders": false
-  
-  // "files.insertFinalNewline": true,
-  // "editor.tabSize": 2,
-  // "prettier.semi": false,
+  "prettier.enable": false,
+   // "prettier.semi": false, //****
   // "prettier.trailingComma": "none",
   // "prettier.arrowParens": "always",
   // "prettier.printWidth": 160,
   // "prettier.jsxSingleQuote": false,
-  // "prettier.singleQuote": true,
+  // "prettier.singleQuote": true, //****
+
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  // "files.insertFinalNewline": true,
+
+  "eslint.format.enable": true, //****
+  //"eslint.validate": ["typescript", "typescriptreact"],
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
